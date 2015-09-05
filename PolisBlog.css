@@ -250,15 +250,12 @@ top: 60px;
 
 
 .allposts {
-	margin: none;
 	padding: auto; 
 	overflow: auto;
 	diplay: inline;
 }
 
 .posts {
-	margin: auto; 
-	float: left;
 	diplay: inline;
 	border: 3px solid #323c46; 
 	border-top-left-radius: 10px;
@@ -282,11 +279,30 @@ top: 60px;
 	
 }
 
+.posts h4 {
+	color: #323c46;
+		font-weight: 800;
+		font-family: 'Raleway', sans-serif;
+		text-align:center; 
+		padding-left: 2%;
+				padding-right: 2%;
+				padding-bottom: 2%;
+		border-bottom: .5px groove #f5f9fa; 
+		width: 90%;
+
+}
+.posts p {
+	color: #f67d00;
+		font-weight: 800;
+		font-family: 'Josefin Sans', sans-serif;
+		text-align: left; 
+		padding-left: 5%;
+		width: 100%; 
+		clear: top; 
+	}
+
 .posts .caption {
 	background-color: #e9eaed;
-	margin: auto;  
-	text-align: center; 
-	margin-top: 2%; 
 }
 
 
