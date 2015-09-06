@@ -238,8 +238,7 @@ top: 60px;
 	font-weight: 300; 
 	font-size: 35px; 
 	text-align: center; 
-	border-bottom: 5px solid #f67d00; 
-
+	border-bottom: 2px solid #f67d00; 
 }
 
 .thumbnail {
@@ -274,8 +273,8 @@ top: 60px;
 
 .posts img {
 	width: 100%;
-	
 	background-image: fill;
+	border-bottom: 3px outset #f5f9fa;
 	
 }
 
@@ -287,22 +286,26 @@ top: 60px;
 		padding-left: 2%;
 				padding-right: 2%;
 				padding-bottom: 2%;
-		border-bottom: .5px groove #f5f9fa; 
+		border-bottom: 1px groove #f5f9fa; 
 		width: 90%;
 
 }
 .posts p {
-	color: #f67d00;
+		color: #f67d00;
 		font-weight: 800;
 		font-family: 'Josefin Sans', sans-serif;
 		text-align: left; 
 		padding-left: 5%;
 		width: 100%; 
 		clear: top; 
+		box-align:end;
 	}
+	
+	
 
 .posts .caption {
 	background-color: #e9eaed;
+	overflow: hidden;
 }
 
 
